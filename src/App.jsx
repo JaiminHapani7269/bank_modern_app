@@ -22,14 +22,13 @@ function App() {
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
             <Stats />
-            <CardDeal />
             <Business />
+            <Biling />
+            <CardDeal />
+            <Testimonials />
             <Client />
             <CTA />
-            <Stats />
             <Footer />
-            <Testimonials />
-
           </div>
         </div>
 
